@@ -1,6 +1,6 @@
 # IONIC
 
-Here you will find all the videos we had seen interestings to know more about IONIC
+Here you will find all the videos we had seen interestings to know more about IONIC:
 
 Video 1: https://www.youtube.com/watch?v=hI5PJkXCKJs&t=1602s (Rick & Morty)
 
