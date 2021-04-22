@@ -1,0 +1,20 @@
+<ion-tabs #tabBar>
+  <ion-tab-bar slot="bottom" *ngIf="user && !hideTabBar">
+    <ion-tab-button tab="home" selected>
+      <fa-icon [icon]="['fas', 'home-lg-alt']" class="icon-menu"></fa-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="schedule-management">
+      <fa-icon [icon]="['fas', 'calendar']" class="icon-menu"></fa-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="grades">
+      <fa-icon [icon]="['fas', 'file-edit']" class="icon-menu"></fa-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="library">
+      <fa-icon [icon]="['fas', 'book-open']" class="icon-menu"></fa-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="schools">
+      <fa-icon [icon]="['fas', 'map']" class="icon-menu"></fa-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
