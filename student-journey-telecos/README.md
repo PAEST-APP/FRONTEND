@@ -3,8 +3,15 @@
  Primer de tot hem d'instal·lar npm, haurem de córrer aquesta ordre:
 
 ```
-npm install npm@latest -g
+npm install npm@6 -g
 ```
+Després d'això fem:
+
+```
+ionic repair
+```
+
+
 Amb aquesta ordre instal·lem l'última versió.
 
 *Podeu veure la doc oficial en aquest link:*
@@ -25,7 +32,7 @@ npm i @ionic/storage@2.2.0
 *A continuació amb aquesta comanda la resta de mòduls:*
 
 ```
-npm install
+npm audit (fix)
 ```
 
 Ara per instal·lar Ionic i segons la documentació oficial fem:
