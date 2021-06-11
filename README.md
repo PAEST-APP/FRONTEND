@@ -18,3 +18,9 @@ Ionic: https://ionicframework.com/
 
 Ionic Components: https://ionicframework.com/docs/components
 
+---------------------------------------------------------------------------------------------------------
+
+# STUDENT JOURNEY TELECOS
+
+In this section you will be able to see our improvement incorporated inside the test environment provided by the enterprise. If you downoad this and execute ionic serve, you will see the project in your default browser and you will interact with the application.
+
