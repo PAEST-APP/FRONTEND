@@ -22,5 +22,4 @@ Ionic Components: https://ionicframework.com/docs/components
 
 # STUDENT JOURNEY TELECOS
 
-In this section you will be able to see our improvement incorporated inside the test environment provided by the enterprise. If you downoad this and execute ionic serve, you will see the project in your default browser and you will interact with the application.
-
+In this section you can see our new implementation incorporated inside the test environment provided by the enterprise. If you downoad this and execute ionic serve, you will see the project in your default browser and you will be able to interact with the application the same way a phone user would.
