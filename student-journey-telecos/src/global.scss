@@ -367,6 +367,23 @@ ion-tab-button {
 
 
 
+.popover-content{ //fa que les opcions del popover (selecció d'hores de consulta) es mostrin senceres
+  width: auto !important; 
+}
+
+ion-back-button{
+  --color: white !important;
+}
+
+
+
+.responseAlert{
+  .alert-message {
+      font-size: 16px !important;
+  }
+}
+
+
 //background side menu
 
 ion-split-pane{ 

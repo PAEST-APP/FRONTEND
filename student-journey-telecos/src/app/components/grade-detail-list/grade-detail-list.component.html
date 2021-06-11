@@ -12,9 +12,8 @@
 <div class="assigments">
   <div *ngFor="let semester of grade.semesters">
     <span class="subtitle-g black">{{semester.any}}</span>
-
-    <ion-item *ngFor="let subject of semester.subjects" class="subject subtitle-m black" detail lines="none" (click)="selectGrade(subject)">{{subject.name}}</ion-item>
-
+    <ion-item *ngFor="let subject of semester.subjects" class="subject subtitle-m black" detail lines="none" (click)="selectGrade(subject)">
+      {{subject.name}}</ion-item>
     <!--<div *ngFor="let subject of semester.subjects" class="subject" (click)="selectGrade(subject)">
       <span class="subtitle-m black">{{subject.name}}</span>
     </div>-->

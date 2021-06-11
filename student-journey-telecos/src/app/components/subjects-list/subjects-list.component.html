@@ -8,7 +8,7 @@
         </div>
         <div>
           <ion-label class="label-title-last-note subtitle-m black" [ngClass]="{suspes: subject.convocatories[0].nota < 5}">
-            {{(subject.convocatories[0].nota ? subject.convocatories[0].nota + ' ' + subject.convocatories[0].notaText : '--')}}
+           {{(subject.convocatories[0].nota ? subject.convocatories[0].nota + ' ' + subject.convocatories[0].notaText : '--')}}
           </ion-label>
           <ion-icon [name]="!subject.expanded ? 'chevron-down-outline' :'chevron-up-outline'" item-end></ion-icon>
         </div>

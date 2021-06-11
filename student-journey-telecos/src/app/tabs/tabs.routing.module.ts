@@ -110,6 +110,18 @@ const routes: Routes = [
         redirectTo: '/pages/home',
         pathMatch: 'full'
       },
+      {
+        path: 'assignatures',
+        loadChildren: () => import('../pages/directori/assignatures/assignatures.module').then( m => m.AssignaturesPageModule)
+      },
+      {
+        path: 'professorat/:id_class/:id_prof', //per a que mostri cada professorat segons el seu id
+        loadChildren: () => import('../pages/directori/professorat/professorat.module').then( m => m.ProfessoratPageModule)
+      },
+      {
+        path: 'consulta/:id_class/:id_prof',
+        loadChildren: () => import('../pages/directori/consulta/consulta.module').then( m => m.ConsultaPageModule)
+      },
     ]
   },
   {

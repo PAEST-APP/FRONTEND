@@ -24,6 +24,7 @@ import { ToastNotificationComponent } from './toast-notification/toast-notificat
 import { IonicStorageModule } from '@ionic/storage';
 import { NgCalendarHorarisModule } from './calendar-gestio-horaris';
 import { GradeDetailListComponent } from './grade-detail-list/grade-detail-list.component';
+import { DirectoriSubjectsListComponent } from './directori-subjects-list/directori-subjects-list.component';
 import { SubjectsListComponent } from './subjects-list/subjects-list.component';
 import { AnnouncementComponent } from './announcement/announcement.component';
 import { ExpandableMenuComponent } from './expandable-menu/expandable-menu.component';
@@ -54,6 +55,7 @@ registerLocaleData(localeEn);
     HomeCarruselComponentComponent,
     ErrorsComponent,
     ToastNotificationComponent,
+    DirectoriSubjectsListComponent,
     GradeDetailListComponent,
     SubjectsListComponent,
     ModalErrorComponent,
@@ -73,6 +75,7 @@ registerLocaleData(localeEn);
     HomeCarruselComponentComponent,
     ErrorsComponent,
     ToastNotificationComponent,
+    DirectoriSubjectsListComponent,
     GradeDetailListComponent,
     SubjectsListComponent,
     ModalErrorComponent,

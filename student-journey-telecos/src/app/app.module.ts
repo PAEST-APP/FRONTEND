@@ -42,7 +42,7 @@ export function customTranslateLoader(http: HttpClient) {
   entryComponents: [],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(),
+    //IonicModule.forRoot(),
     AppRoutingModule,
     ComponentsModule,
     HttpClientModule,
@@ -63,7 +63,11 @@ export function customTranslateLoader(http: HttpClient) {
         student: AppReducer.studentReducer,
         tokenFireBase: AppReducer.tokenFireBaseReducer,
         configuration: ConfigurationReducer.configurationReducer,
-        notification: AppReducer.notificationReducer
+        notification: AppReducer.notificationReducer,
+        /*runtimeChecks: {
+          strictStateImmutability: true,
+          strictActionImmutability: true
+        }*/
     }),
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
